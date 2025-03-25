@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imgs/BBQing.png);
+    font-size: large;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+main{
+    padding: 10px;
+    margin: 0;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+button{
+    background-color: #fc7f03;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    height: 75px;
+    width: 150px;
+}
+
+button:hover{
+    transform: scale(2);
+    transform: translateY(-3px);
+    transition: transform 0.2s ease-in-out;
+    background-color: #fcb703;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: row;
+}
